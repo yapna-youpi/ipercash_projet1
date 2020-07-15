@@ -183,19 +183,22 @@ a{
 .site2-blc2{
     width: 35%;height: 1095px;
 }
-.site2-foto{
+.site2-banner{
     width: 100%;height: 425px;background: url("../img/tof4.jpg");background-size:cover ;
+}
+.site2-couvre-banner{
+    width: 100%;height: 425px;background-size:cover ;background: linear-gradient(white,yellow,black);opacity: 0.3;
 }
 .site2-describe{
     width: 100%;height: 380px;
 }
 .site2-describe-blc1{
-    width: 100%;height: 150px;background-color: yellow;
+    width: 100%;height: 150px;
 }
 .site2-auteur-img{
     float: left;height: 150px;width: 27%;position: relative;top: 5px;left: 5%;background-size: cover;background-image: url("../img/auteur.jpg");
 }
-.site2-auteur{font-size: 12px;background: pink;float: right;height: 150px;width: 60%;position: relative;top: 5px;
+.site2-auteur{font-size: 12px;float: right;height: 150px;width: 60%;position: relative;top: 5px;
 }
 .site2-form{
     width: 100%;height: 290px;background-color: fuchsia;
@@ -222,7 +225,7 @@ a{
     width: 75%;height: 180px;border: 1px solid black;margin-left: auto;margin-right: auto;margin-top: 27px;background: url("../img/tof1.jpg");background-size:cover ;
 }
 .entete{
-    width: 100%;height: 50px;background-color: aqua;
+    width: 100%;height: 50px;background-color: rgba(0, 0, 0, 0.78);
 }
 
 
