@@ -2,7 +2,7 @@
 margin: 0;padding:0;
 }
 body{
-    width: 100%;height:1700px;
+    width: 100%;height:px;
 }
 header{
     width: 100%;height: 100px;background-color: rgba(0, 0, 0, 0.8);color: white;
@@ -124,11 +124,11 @@ section .sect1-corps1 .sect1-blc5:hover
 }
 section .sect1-corps1 .sect1-blc5 .sect1-arti     /*--article en vente--*/
 {
-    width: 100%;height: 300px;background-image: url(../img/tof7.jpg);background-size: cover;
+    width: 100%;height: 300px;background-image: url(../img/tof7.jpg);background-size: cover;color: black;
 }
  section .sect1-corps1 .sect1-blc5 .sect1-describe   /*--description article--*/
 {
-    width: 100%;height: 50px;border: 1px solid black;text-align: center;line-height: 25px; font-size: 22px;
+    width: 100%;height: 50px;border: 1px solid black;text-align: center;line-height: 25px; font-size: 22px;color: black;
 }
 section .sect1-corps1 .sect1-blc6{
     width: 25%;height: 350px;border: 2px dotted aqua;display: inline-block;
@@ -169,7 +169,46 @@ ul{
     font-size: 22px;background-color: white;text-transform: none;text-decoration: none;
 }
 a{
-    text-decoration: none;color: white;font-size: 15px;
+    text-decoration: none;color:black;font-size: 15px;
+}
+
+/*--site2 en css--*/
+
+.site2-blc1{
+    width: 90%;height: 675px;;background-color: blue;
+}
+.site2-blc2{
+    width: 30%;height: 675px;background-color: salmon;
+}
+.site2-foto{
+    width: 100%;height: 325px;background-color: green;
+}
+.site2-describe{
+    width: 100%;height: 200px;background-color: lime;
+}
+.site2-form{
+    width: 100%;height: 150px;background-color: fuchsia;
+}
+#bloc_page{
+    display: flex;width: 100%;height: 625px;
+}
+.site2-titre{
+    width: 30%;height: 25px;border: 1px solid black;margin-right: auto;margin-left: auto;margin-top: 10px;
+}
+.site-similaire1{
+    width: 75%;height: 125px;border: 1px solid black;margin-left: auto;margin-right: auto;margin-top: 15px;
+}
+.entete{
+    width: 100%;height: 50px;background-color: aqua;
 }
 
 
+
+
+
+
+
+
+<div class="site2-foto">leurs</div>
+            <div class="site2-describe">notre</div>
+            <div class="site2-form"><var>votre</var></div>
