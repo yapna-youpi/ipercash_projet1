@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)http://tassedecafe.org/fr/obtenir-taille-ecran-centrer-element-jquery-62 -->
+<html lang="fr-FR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Obtenir la taille d'écran et centrer un élément avec jQuery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="pingback" href="http://tassedecafe.org/xmlrpc.php">
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        
+<!-- All in One SEO Pack 2.3.9 by Michael Torbert of Semper Fi Web Design[89,190] -->
+<link rel="author" href="https://plus.google.com/+J%C3%A9r%C3%A9myHeleine">
+<meta name="description" itemprop="description" content="Comment centrer un élément horizontalement et verticalement grâce à jQuery.">
+
+<meta name="keywords" itemprop="keywords" content="jquery">
+
+<link rel="canonical" href="http://tassedecafe.org/fr/obtenir-taille-ecran-centrer-element-jquery-62">
+<!-- /all in one seo pack -->
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Tasse de Café » Comment obtenir la taille de l’écran et centrer un élément avec jQuery Flux des commentaires" href="http://tassedecafe.org/fr/obtenir-taille-ecran-centrer-element-jquery-62/feed">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/tassedecafe.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.16"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./clavier_files/wp-emoji-release.min.js.téléchargement" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="newtassedecafe-style-css" href="./clavier_files/style.css" type="text/css" media="all">
+<link rel="https://api.w.org/" href="http://tassedecafe.org/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tassedecafe.org/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tassedecafe.org/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Les tweets allongés débarquent sur Twitter" href="http://tassedecafe.org/fr/tweets-allonges-twitter-55">
+<link rel="next" title="L’erreur HTTP 451 pourrait bien symboliser la censure" href="http://tassedecafe.org/fr/erreur-http-451-censure-69">
+<meta name="generator" content="WordPress 4.6.16">
+<link rel="shortlink" href="http://tassedecafe.org/?p=62">
+<link rel="alternate" type="application/json+oembed" href="http://tassedecafe.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ftassedecafe.org%2Ffr%2Fobtenir-taille-ecran-centrer-element-jquery-62">
+<link rel="alternate" type="text/xml+oembed" href="http://tassedecafe.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ftassedecafe.org%2Ffr%2Fobtenir-taille-ecran-centrer-element-jquery-62&amp;format=xml">
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+    </head>
+
+    <body class="single single-post postid-62 single-format-standard">
+        <header id="site-header">
+            <div id="site-header-content">
+                                <p id="site-name">
+                    <a href="http://tassedecafe.org/fr/" rel="home">Tasse de Café</a>
+                </p>
+
+                <ul id="site-header-links">
+                    <li class="site-header-link-me">
+                        <a href="http://jeremyheleine.me/">Jérémy Heleine</a>
+                    </li>
+
+                    <li class="site-header-link-github">
+                        <a href="https://github.com/JeremyHeleine" title="GitHub">GitHub</a>
+                    </li>
+
+                    <li class="site-header-link-twitter">
+                        <a href="https://twitter.com/JeremyHeleine" title="Twitter">Twitter</a>
+                    </li>
+
+                    <li class="site-header-link-facebook">
+                        <a href="https://www.facebook.com/jeremy.heleine" title="Facebook">Facebook</a>
+                    </li>
+
+                    <li class="site-header-link-googleplus">
+                        <a href="https://plus.google.com/u/0/+J%C3%A9r%C3%A9myHeleine" title="Google+">Google+</a>
+                    </li>
+
+                    <li class="site-header-link-linkedin">
+                        <a href="https://fr.linkedin.com/pub/j%C3%A9r%C3%A9my-heleine/55/a14/64a" title="LinkedIn">LinkedIn</a>
+                    </li>
+
+                    <li class="site-header-link-rss">
+                        <a href="http://tassedecafe.org/fr/feed" title="RSS">RSS</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div id="content">
+
+            <div id="right-column">
+                    <div id="sidebar">
+        <aside class="widget widget_text"><h3 class="widget-title">À propos</h3>			<div class="textwidget"><p>Hey ! Je suis Jérémy Heleine. Je suis un développeur web, et ceci est mon blog personnel. Vous pouvez retrouver sur Tasse de Café quelques articles, la plupart à propos de mes projets, et quelques tutoriels.</p>
+</div>
+		</aside><aside class="widget widget_search"><h3 class="widget-title">Recherche</h3><form method="get" action="http://tassedecafe.org/fr/">
+    <input type="text" name="s" value="" placeholder="Rechercher…">
+    <input type="submit" value="Go !">
+</form>
+</aside><aside class="widget widget_rss"><h3 class="widget-title"><a class="rsswidget" href="http://www.sitepoint.com/author/jheleine/feed/"><img class="rss-widget-icon" style="border:0" width="14" height="14" src="./clavier_files/rss.png" alt="RSS"></a> <a class="rsswidget" href="https://www.sitepoint.com/">SitePoint</a></h3><ul><li><a class="rsswidget" href="https://www.sitepoint.com/why-flippa-is-the-best-place-to-sell-your-website/?utm_source=rss">Why Flippa Is the Best Place to Sell Your Website</a></li><li><a class="rsswidget" href="https://www.sitepoint.com/node-vs-deno/?utm_source=rss">Node.js vs Deno: What You Need to Know</a></li><li><a class="rsswidget" href="https://www.sitepoint.com/flipsnack-an-easy-design-tool-for-incredible-magazines/?utm_source=rss">Meet Flipsnack, An Easy Design Tool for Incredible Magazines</a></li><li><a class="rsswidget" href="https://www.sitepoint.com/fonts-colors-used-facebook-twitter-google/?utm_source=rss">Fonts and Colors Used by Facebook, Twitter, Instagram, Google and More</a></li><li><a class="rsswidget" href="https://www.sitepoint.com/our-gatsby-redesign/?utm_source=rss">Why We Moved a 20-Year-Old Site to Gatsby</a></li></ul></aside><aside class="widget widget_rss"><h3 class="widget-title"><a class="rsswidget" href="http://www.fredzone.org/author/jeremy/feed"><img class="rss-widget-icon" style="border:0" width="14" height="14" src="./clavier_files/rss.png" alt="RSS"></a> <a class="rsswidget" href="https://www.fredzone.org/">Fredzone</a></h3><ul><li><a class="rsswidget" href="https://www.fredzone.org/cest-plutot-mal-parti-pour-la-nouvelle-trilogie-stargate-486#utm_source=feed&amp;utm_medium=feed&amp;utm_campaign=feed">C’est plutôt mal parti pour la nouvelle trilogie Stargate</a></li><li><a class="rsswidget" href="https://www.fredzone.org/le-mini-test-de-la-nes-mini-517#utm_source=feed&amp;utm_medium=feed&amp;utm_campaign=feed">Le mini test de la NES Mini</a></li><li><a class="rsswidget" href="https://www.fredzone.org/the-big-bang-theory-pourrait-bien-avoir-droit-a-sa-prequelle-centree-sur-sheldon-541#utm_source=feed&amp;utm_medium=feed&amp;utm_campaign=feed">The Big Bang Theory pourrait bien avoir droit à sa préquelle centrée sur Sheldon</a></li><li><a class="rsswidget" href="https://www.fredzone.org/la-troublante-histoire-de-pokemon-black-la-cartouche-oubliee-de-la-game-boy-666#utm_source=feed&amp;utm_medium=feed&amp;utm_campaign=feed">La troublante histoire de Pokémon Black, la cartouche oubliée de la Game Boy</a></li><li><a class="rsswidget" href="https://www.fredzone.org/pokemon-go-fete-halloween-avec-une-pluie-de-bonbons-546#utm_source=feed&amp;utm_medium=feed&amp;utm_campaign=feed">Pokémon Go fête Halloween avec une pluie de bonbons</a></li></ul></aside><aside class="widget widget_text"><h3 class="widget-title">Me soutenir</h3>			<div class="textwidget"><p>Si vous aimez mon travail, pourquoi pas un petit soutien ?</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="DCZXJT7PU4JWG">
+<input type="image" src="./clavier_files/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+<img alt="" border="0" src="./clavier_files/pixel.gif" width="1" height="1">
+</form></div>
+		</aside>    </div>
+                </div>
+
+            <div id="left-column">
+
+    <article class="single-post-column">
+        <header>
+            <h1><a href="http://tassedecafe.org/fr/obtenir-taille-ecran-centrer-element-jquery-62">Comment obtenir la taille de l’écran et centrer un élément avec jQuery</a></h1>
+
+                    </header>
+
+        <div class="post-content">
+            <p>Il n’est pas rare de devoir <strong>centrer un élément</strong> par rapport à la fenêtre, que ce soit <strong>horizontalement ou verticalement</strong>, ou les deux. Nous allons ici voir comment faire.</p>
+<h2>Obtenir la taille de l’écran</h2>
+<p>Pour centrer un élément, il nous faut <strong>la taille de l’écran</strong>, ou plutôt la taille de la fenêtre, et même plus précisément, les <strong>dimensions de la zone d’affichage</strong>. Pour cela, c’est très simple :</p>
+<pre lang="javascript" line="1">var largeur_fenetre = $(window).width();
+var hauteur_fenetre = $(window).height();</pre>
+<h2>Centrer un élément</h2>
+<p>Commençons par écrire ce qu’on connaît déjà pour centrer un élément :</p>
+<pre lang="javascript" line="1">function centrerElement(element)
+{
+	var largeur_fenetre = $(window).width();
+	var hauteur_fenetre = $(window).height();
+}</pre>
+<p>Le paramètre est un élément jQuery (obtenu avec $()).</p>
+<p>Il nous faut maintenant modifier la position de cet élément. Là, deux méthodes : soit on fait un positionnement fixe, soit on fait un positionnement absolu. Pour rappel, le positionnement fixe est là pour faire en sorte que l’élément placé ne bouge jamais de sa position sur l’écran, quel que soit le scroll appliqué à la page (on peut bouger autant qu’on veut, l’élément restera bien campé sur sa position).</p>
+<p>Commençons par voir le plus simple : le positionnement fixe. Dans ce positionnement, il faut considérer que les dimensions de la page n’excèdent pas celles de la zone visible (celles que l’on a calculées plus haut). En effet, si on indique que le haut est à une valeur plus élevée que la hauteur de la zone visible, on sort de l’écran… Et vu que l’élément bouge aussi quand on bouge la page, on a beau descendre, on ne verra jamais notre bel élément…</p>
+<p>Il nous faut donc les coordonnées du point en haut à gauche de l’élément (les coordonnées voulues). Pour cela réfléchissons et allons-y par étapes. Si nous indiquons comme valeur du haut la moitié de la hauteur de l’écran, le haut sera bien centré, mais pas l’élément lui-même. Il faut donc retirer la moitié de la hauteur de l’élément, et le tour est joué :</p>
+<pre lang="javascript" line="1">var haut = (hauteur_fenetre / 2) - (element.height() / 2);</pre>
+<p>On peut tenir le même raisonnement pour le côté gauche :</p>
+<pre lang="javascript" line="1">var gauche = (largeur_fenetre / 2) - (element.width() / 2);</pre>
+<p>Il nous suffit d’appliquer ces coordonnées :</p>
+<pre lang="javascript" line="1">element.css({position: 'fixed', top: haut, left: gauche});</pre>
+<p>Pour le positionnement absolu, on agit de la même manière, à une petite particularité près : il faut prendre en compte la position du visiteur par rapport à la page. On obtient ceci assez facilement avec jQuery, je vous donne donc la réponse tout de suite :</p>
+<pre lang="javascript" line="1">var haut = (hauteur_fenetre / 2) - (element.height() / 2) + $(window).scrollTop();
+var gauche = (largeur_fenetre / 2) - (element.width() / 2) + $(window).scrollLeft();
+element.css({position: 'absolute', top: haut, left: gauche});</pre>
+<h2>En résumé</h2>
+<p>Voici donc le code final, j’ai mis deux fonctions car deux types de positionnement, mais à vous de choisir la méthode qui vous convient.</p>
+<pre lang="javascript" line="1">function centrerElementFixe(element)
+{
+	var largeur_fenetre = $(window).width();
+	var hauteur_fenetre = $(window).height();
+
+	var haut = (hauteur_fenetre - element.height()) / 2;
+	var gauche = (largeur_fenetre - element.width()) / 2;
+	element.css({position: 'fixed', top: haut, left: gauche});
+}
+
+function centrerElementAbsolu(element)
+{
+	var largeur_fenetre = $(window).width();
+	var hauteur_fenetre = $(window).height();
+
+	var haut = (hauteur_fenetre - element.height()) / 2 + $(window).scrollTop();
+	var gauche = (largeur_fenetre - element.width()) / 2 + $(window).scrollLeft();
+	element.css({position: 'absolute', top: haut, left: gauche});
+}</pre>
+<p>À noter qu’il faut également penser aux bordures et marges si votre élément en possède…</p>
+        </div>
+
+        <footer class="post-metadata">
+            Par <a href="http://tassedecafe.org/fr/author/jeremy" title="Articles par Jérémy Heleine" rel="author">Jérémy Heleine</a>            le dimanche 17 juin 2012            dans <a href="http://tassedecafe.org/fr/categorie/tutoriels/javascript-fr" rel="category tag">JavaScript</a>, <a href="http://tassedecafe.org/fr/categorie/tutoriels" rel="category tag">Tutoriels</a>
+                            <p class="post-tags">Tags : <a href="http://tassedecafe.org/fr/tag/jquery-fr" rel="tag">jQuery</a></p>
+                
+        </footer>
+    </article>
+
+    <section id="comments" class="post-comments-area">
+    
+        <h2>6 commentaires</h2>
+
+        <ol class="post-comments-list">
+            		<li class="comment even thread-even depth-1" id="comment-141197">
+				<div id="div-comment-141197" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./clavier_files/244cf73a547e1c3b8b449c4b7c549802.png" srcset="http://2.gravatar.com/avatar/244cf73a547e1c3b8b449c4b7c549802?s=100&amp;d=mm&amp;r=x 2x" class="avatar avatar-50 photo" height="50" width="50">			<cite class="fn">Marge</cite> <span class="says">dit&nbsp;:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tassedecafe.org/fr/obtenir-taille-ecran-centrer-element-jquery-62#comment-141197">
+			mardi 31 mai 2016 à 15:53</a>		</div>
+
+		<p>Merci pour cet excellent tutoriel</p>
+
+		<div class="reply"></div></div></li></ol></section></div></div></body></html>
