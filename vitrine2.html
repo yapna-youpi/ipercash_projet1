@@ -5,16 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Boutique_preta-luxes</title>
         <link rel="stylesheet" type="text/css" href="css/vitrine1.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
 
-    <body class="site2-body">
+    <body class="site2-body"> <!--partie de gauche-->
         <div class="entete"></div>
         <div id="bloc_page">
             <div class="site2-blc1">
                 <div class="site2-banner">
                     <div class="site2-couvre-banner"><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></div>
                 </div>
-                <div class="site2-describe"><h1 class="tle">chaussures H&M.. made in canada&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="img/likeface.jpg">  </h1>
+                <div class="site2-describe"><h1 class="tle">chaussures H&M.. made in canada&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="img/likeface.jpg">&nbsp&nbsp<img src="img/Heart_15px.png">  </h1>
                     <div class="site2-describe-blc1">Acheter dans un magasin de vêtements
                         Parler Français
                         Tout le monde adore faire des achats. Donc, on va apprendre comment acheter des vêtements<br/>
@@ -29,20 +30,29 @@
                         Parler Français!
                     
                     </div>
-                    <div class="site2-auteur-img"></div>
+                    <div class="site2-auteur-img img-rounded" ></div>
                     <div class="site2-auteur"><br/><br/><br/><h2>yapna youpi</h2>
                         <h3>Webmaster-coder-designer</h3>
                         <p>Le SEIGNEUR est mon berger et je ne manquerais de rien </p> 
                     </div>
                 </div>
+                <div class="container" id="comment_gen">
+                    <div class="row">
+                        <div class="col-sm-1 "><img src="img/tof7.jpg" class="rounded-circle"></div>
+                        <div class="col-sm-11 alert alert-warning" role="alert" id="comments"><h5>merci Monsieur/Madame veuillez laissez un commentaire !</h5></div>
+                    </div>
+                </div>
+                <div id="comment2">
+                    
+                </div>
                 <div class="site2-form">
                     <div class="section_form">
                         <div class="form_content"><br/><br/><br/><br/><br/>
                             <h1><div class="form-gauche"> contact me</div></h1>
-                            <form>
+                            <form id="form">
                                 <div class="form_line1">
                                     <div class="form_line">
-                                        <label for="name"></label><input  placeholder="nom" type="text" name="nom" id="email" maxlength="70" />
+                                        <label for="name"></label><input  placeholder="nom" type="text" name="nom" id="nom" maxlength="70" />
                                         
                                     </div>
             
@@ -52,20 +62,21 @@
                                     </div>
 
                                     <div class="form_line3">
-                                        <label for="message"></label><textarea placeholder="message" name="message" rows="2" id="email3" ></textarea>
+                                        <label for="message"></label><textarea placeholder="message" name="message" rows="2" id="message" ></textarea>
                                         
                                     </div></br>
         
                                 </div>
                                
         
-                                <input type="submit" name="submit" value="envoyer" class="submit_btn">
+                                <button type="button" name="submit" id="btn" onclick="resetForm()"  class="submit_btn">envoyer</button>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="site2-blc2">
+
+            <div class="site2-blc2"> <!--partie de droite-->
                 <div class="site2-titre">arcticles similaires</div>
                 <div class="site2-similaire1"></div>
                 <div class="site2-similaire2"></div>
@@ -102,6 +113,12 @@
         </footer>
 
         <script src="js/all.js"></script>
+        <script src="js/formulaire.js"> </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         
     </body>
 </html>
+
+
